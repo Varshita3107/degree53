@@ -240,6 +240,7 @@ public class SearchPage {
 		Select selectrailcardcount = new Select(getRailcardcount);
 		selectrailcardcount.selectByValue("2");
 	
+		Thread.sleep(3000);
 		clickButtondone.click();
 				
 	}
